@@ -1,0 +1,382 @@
+/**
+#F8ECD1
+#DEB6AB
+#AC7D88
+#85586F
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+.coloresGenerales{
+background-color: #FCF8E8;
+
+}
+
+
+html{
+    font-size: 62.5%;
+    /** 10px=1rem */
+}
+
+header{
+    width: auto;
+    margin: 0px auto;
+    color: #F8ECD1;
+    background-color:#F8ECD1 ;
+}
+
+nav{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+  
+
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display:inline-block;
+    font-size: 3rem;
+}
+h1{
+    font-family: 'Mingzat', sans-serif;
+    color: #AC7D88;
+    text-align: center;
+    font-size: 10rem;
+            
+
+}
+
+
+
+nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+nav ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: 85586F;
+
+}
+
+.redes{ 
+    display: flex;
+    justify-content: end;
+}
+
+  
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #85586F;
+}
+
+
+
+
+.footer1{
+    background-color: #AC7D88;
+    border-radius: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+/** HTML CONTACTO*/
+
+.c-c{
+        font-family: 'Mingzat', sans-serif;
+        color: #AC7D88;
+        text-align: center;
+        font-size: 2rem;    
+        text-align: left;
+    }
+
+
+.gridContacto{
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+    "i1"
+    "i2"
+    "i3"
+    "i4"
+    "i5"
+    "i6"
+    "i7"
+}
+
+.listaRedes{
+    flex-direction:row;
+
+}
+
+
+/** HTML SERVICIOS*/
+
+.bodyServicios{
+    background-color: #F8ECD1;
+}
+
+.c-s{
+    font-size: 2rem;
+    font-family: 'Mingzat', sans-serif;
+    color: #AC7D88;
+    text-align: center;
+}
+.gridServicios{
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+    "s1"
+    "s2"
+    "s3"
+    "s4"
+    "s5"
+
+}
+.nuestrosServicios{
+    font-size: 2rem;
+    font-family: 'Mingzat', sans-serif;
+    background-color: #F0EBE3;
+    text-align: center;
+}
+
+/** Nosotros HTML**/
+.nosotros1{
+    background-color: #FCF8E8;
+}
+.n-n{
+    font-size: 2rem;
+    font-family: 'Mingzat', sans-serif;
+    color: #AC7D88;
+    text-align: center;
+
+}
+.n3{
+    font-size: 2rem;
+    font-family: 'Mingzat', sans-serif;
+    color: #AC7D88;
+    text-align: center;
+}
+
+.contenedorNosotros{
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas:
+    "n4"
+    "n1"
+    "n2"
+    "n3"
+
+}
+
+
+/** Propiedadees del index**/
+
+
+
+.mainIndex{
+    width: 100%;
+    margin: 0px auto;
+}
+.containerIndex{
+    width: 100%;
+}
+
+.c-h{
+    font-size: 20rem;
+}
+ 
+.l2{
+    font-size: 5rem;
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+/** Acá voy a codear el HTML de Proyecto**/
+
+.container{
+    width: 100%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "c1 c1 c1"
+    "c2 c2 c3"    
+    "c4 c5 c5"
+    ;
+   
+}
+
+/** prueba*/
+
+.pbc2{
+    width:120rem;
+    height: 80rem;
+}
+.pbc1{
+    width:120rem;
+    height: 80rem;
+}
+
+
+/** esta es la clase general**/
+.c-g{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;   
+    font-size: 5rem;
+}
+
+.c1{
+    grid-area: c1;
+    background-color: #231955;
+    width: 100%;
+    height: auto;
+}
+
+.c2{
+    grid-area: c2;
+    background-color: #F0EBE3;
+    width: 100%;
+    height: auto;
+}
+
+.c3{
+    grid-area: c3;
+    background-color:#F0EBE3;
+}
+.c4{
+    grid-area: c4;
+    background-color: #F0EBE3;
+}
+.c5{
+    grid-area: c5;
+    background-color: #937DC2;
+}
+/*Media query*/
+
+@media (max-width: 992px){
+
+    .pbc2{
+        width:99.2rem;
+        height: 54.4rem;
+    }
+    .pbc1{
+        width:99.2rem;
+        height: 54.4rem;
+    }
+    
+    .css2{
+        width: 99.2rem;
+        height: auto;
+    }
+    .css3{
+        width: 99.2rem;
+        height: auto;
+    }
+    .css5{
+        width: 99.2rem;
+        height: auto;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "c1 c2 c3"
+        "c1 c4 c4"
+        "c1 c5 c5"
+        ;
+    }
+    .imagenIndex{
+        width: 992px;
+        height: 100%;
+    }
+    .c1 {
+        height: auto;
+    }
+    
+    .c2 {
+        height: auto;
+    }
+    
+    .ch127 {
+        width: 99.2rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px){
+    
+    .pbc2{
+        width:57.2rem;
+        height: 24.4rem;
+    }
+    .pbc1{
+        width:57.2rem;
+        height: 24.4rem;
+    }
+    .ch127 {
+        width: 57.6rem;
+        
+    }
+
+    .container{
+        grid-template-columns: 1fr;  
+        grid-template-areas:
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "c5"
+        ;
+    }
+    .c1{
+        height: auto;
+    }
+    .c2{
+        height: auto;
+    }
+    
+    .css2{
+        width: 57.6rem;
+        height: auto;
+    }
+    .css3{
+        width: 57.6rem;
+        height: auto;
+    }
+    .css5{
+        width: 57.6rem;
+        height: auto;
+    }
+  
+}
