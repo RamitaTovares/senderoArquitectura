@@ -14,7 +14,33 @@
     box-sizing: border-box; 
 
 }
+.navbar{
+    padding: 0;
+}
 
+.navbar .navbar-nav .nav-link{
+    position: 10em;
+}
+
+.navbar .navbar-nav .nav-item{
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    content:' ';
+    background-color: #fffcf7;
+    width: 0%;
+    height: 4px;
+    transition: all 1s;
+}
+.navbar .navbar-nav .nav-item:hover::after{
+    width: 100%;
+}
 .coloresGenerales{
 background-color: #FCF8E8;
 
@@ -145,13 +171,6 @@ footer{
 
 /** Nosotros HTML**/
 
-
-
-.flip-horizontal-bottom {
-	-webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-}
-
 .imgnosotros{
     width: 120rem;
     height: 8rem;
@@ -188,9 +207,9 @@ font-size: 5rem;
 }
 
 .n-nn2{
-    text-align: center;
+    text-align: end;
     grid-area:n-nn2;
-    width: 80rem;
+    width: 100%;
     height: 80rem;
 }
 .n-nn2:hover{
@@ -300,25 +319,16 @@ background-color: #AC7D88;
 .ch127{
 width: 100%;
 text-align: center;
+
 }
 
 
 /** Acá voy a codear el HTML de Proyecto**/
 
-.container{
+.container123{
     text-align: center;
     width: 100%;
     margin: 0px auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5fr;
-    grid-template-areas:
-    "cgc4"
-    "cgc1"
-    "cgc3"
-    "cgc2"
-    "cgc5"
-    ;
    
 }
 
@@ -370,7 +380,7 @@ text-align: center;
 @media (max-width: 992px){
 
     .n-nn2{
-        width: 70rem;
+        width: 100%;
     }
 
     .pbc2{
@@ -432,7 +442,7 @@ text-align: center;
     }
 
     .n-nn2{
-        width: 36rem;
+        width: 100%;
     }
     .pbc2{
         width:30rem;
