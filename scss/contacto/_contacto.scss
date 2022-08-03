@@ -1,0 +1,22 @@
+.coloresGenerales{
+    background-color: $clr-crema1;
+    font-family: $ff-main;
+
+    .contenedorContacto{ 
+        background-color: $clr-crema1;
+        font-family: $ff-headings;
+        font-size: 2.5rem;
+        
+        .gridContacto{
+            width: 100%;
+            margin: 0px auto;
+            display: grid;
+        }
+
+    }   
+}
+
+footer{
+    padding-top: 2rem;
+}
+    

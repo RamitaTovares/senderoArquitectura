@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins:wght@500;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /** 10px=1rem */
+}
+
+.gridGeneral {
+  background-color: #F8ECD1;
+}
+.gridGeneral .container-grid {
+  text-align: center;
+}
+.gridGeneral .container-grid .c-hl4 {
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  padding: 2rem;
+}
+.gridGeneral .container-grid .c-hl3 {
+  font-size: 4rem;
+  text-align: justify;
+}
+.gridGeneral .container-grid .ch127 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.gridGeneral .container-grid .c-hl2 {
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+}
+.gridGeneral header .navbar {
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  position: 10em;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  content: " ";
+  background-color: #fffcf7;
+  width: 0%;
+  height: 4px;
+  transition: all 1s;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+body {
+  background-color: #85586F;
+  font-family: "Poppins", sans-serif;
+}
+body header {
+  background-color: #85586F;
+}
+body .navbar {
+  font-family: "Mingzat", sans-serif;
+  background-color: #85586F;
+  padding: 2rem;
+  font-size: 3rem;
+}
+body .contenedorNosotros {
+  font-size: 3rem;
+  background-color: #F8ECD1;
+  text-align: center;
+}
+body .contenedorNosotros .n-nn2box2 {
+  padding: 2rem;
+}
+body .contenedorNosotros .nn-4box1 {
+  font-family: "Poppins", sans-serif;
+}
+body .contenedorNosotros .n-nn3 {
+  font-size: 3rem;
+  font-family: "Mingzat", sans-serif;
+  text-align: center justify;
+  display: block;
+  padding-bottom: 5rem;
+}
+body .contenedorNosotros .n-nn2box2 {
+  padding-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  .gridServicios {
+    padding-left: 1rem;
+    text-align: center;
+  }
+  .gridServicios .c-ss1 {
+    width: 70 rem;
+    height: auto;
+  }
+  .gridServicios .c-ss2 {
+    width: 70 rem;
+    height: auto;
+  }
+  .gridServicios .c-ss3 {
+    width: 70 rem;
+    height: auto;
+  }
+  .gridServicios .c-ss4 {
+    width: 70 rem;
+    height: auto;
+  }
+  .n-nn2box2 {
+    padding: 2rem;
+    width: 70rem;
+    height: auto;
+  }
+}
+@media (max-width: 700px) {
+  .n-nn2box2 {
+    padding: 2rem;
+    width: 55rem;
+    height: auto;
+  }
+  .c-ss1 {
+    padding-left: 0;
+  }
+  .c-ss1 .csss1 {
+    width: 50rem;
+    height: auto;
+  }
+  .c-ss2 {
+    padding-left: 0;
+  }
+  .c-ss2 .csss2 {
+    width: 50rem;
+    height: auto;
+  }
+  .c-ss3 {
+    padding-left: 0;
+  }
+  .c-ss3 .csss3 {
+    width: 50rem;
+    height: auto;
+  }
+  .c-ss4 {
+    padding-left: 0;
+  }
+  .c-ss4 .csss4 {
+    width: 50rem;
+    height: auto;
+  }
+}
+.n-nn2box2 {
+  padding: 2rem;
+  width: 70rem;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .n-nn2box2 {
+    padding: 2rem;
+    width: 40rem;
+    height: auto;
+  }
+  .csss1 {
+    width: 20rem;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .n-nn2box2 {
+    padding: 2rem;
+    width: 20rem;
+    height: auto;
+  }
+}
+.bodyServicios {
+  background-color: #F8ECD1;
+}
+
+.p {
+  font-family: "Poppins", sans-serif;
+  font-size: 7rem;
+}
+
+.nuestrosServicios {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.gridServicios {
+  text-align: center;
+}
+.gridServicios .c-ss1 {
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+.gridServicios .c-ss2 {
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.c-ss3 {
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.c-ss4 {
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.coloresGenerales {
+  background-color: #F8ECD1;
+  font-family: "Poppins", sans-serif;
+}
+.coloresGenerales .contenedorContacto {
+  background-color: #F8ECD1;
+  font-family: "Mingzat", sans-serif;
+  font-size: 2.5rem;
+}
+.coloresGenerales .contenedorContacto .gridContacto {
+  width: 100%;
+  margin: 0px auto;
+  display: grid;
+}
+
+footer {
+  padding-top: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
