@@ -109,24 +109,47 @@ body .contenedorNosotros .n-nn2box2 {
 
 @media (max-width: 1100px) {
   .gridServicios {
-    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    grid-template-areas: "foto1" "foto2" "foto3" "foto4";
     text-align: center;
   }
-  .gridServicios .csss1 {
-    width: 100rem;
-    height: auto;
+  .gridServicios .c-ss1 {
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 4rem;
   }
-  .gridServicios .csss2 {
-    width: 100rem;
-    height: auto;
+  .gridServicios .c-ss1 .csss1 {
+    grid-area: foto1;
   }
-  .gridServicios .csss3 {
-    width: 100rem;
-    height: auto;
+  .gridServicios .c-ss2 {
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 4rem;
   }
-  .gridServicios .csss4 {
-    width: 100rem;
-    height: auto;
+  .gridServicios .c-ss2 .csss2 {
+    grid-area: foto2;
+  }
+  .c-ss3 {
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .c-ss3 .csss3 {
+    grid-area: foto3;
+  }
+  .c-ss4 {
+    padding: 2rem;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .c-ss4 .csss4 {
+    grid-area: foto4;
   }
 }
 @media (max-width: 992px) {
@@ -231,6 +254,10 @@ body .contenedorNosotros .n-nn2box2 {
 }
 
 .gridServicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "foto1" "foto2" "foto3" "foto4";
   text-align: center;
 }
 .gridServicios .c-ss1 {
@@ -239,11 +266,17 @@ body .contenedorNosotros .n-nn2box2 {
   text-align: center;
   font-size: 4rem;
 }
+.gridServicios .c-ss1 .csss1 {
+  grid-area: foto1;
+}
 .gridServicios .c-ss2 {
   padding: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 4rem;
+}
+.gridServicios .c-ss2 .csss2 {
+  grid-area: foto2;
 }
 
 .c-ss3 {
@@ -252,12 +285,18 @@ body .contenedorNosotros .n-nn2box2 {
   text-align: center;
   font-size: 4rem;
 }
+.c-ss3 .csss3 {
+  grid-area: foto3;
+}
 
 .c-ss4 {
   padding: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 4rem;
+}
+.c-ss4 .csss4 {
+  grid-area: foto4;
 }
 
 .coloresGenerales {
