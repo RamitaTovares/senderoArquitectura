@@ -22,40 +22,27 @@
     ;
     text-align: center;
         .c-ss1{ 
-            
-            padding: 2rem;
-            font-family: $ff-main;
-            text-align: center;
-            font-size: 4rem;
+            @include centersize;
             .csss1{
             grid-area: foto1;
             }
         }
         .c-ss2{
-            padding: 2rem;
-            font-family: $ff-main;
-            text-align: center;
-            font-size: 4rem;
+            @include centersize;
                 .csss2{
                     grid-area: foto2;
                     }
             }
         }
         .c-ss3{
-            padding: 2rem;
-            font-family: $ff-main;
-            text-align: center;
-            font-size: 4rem;
+            @include centersize;
                 .csss3{
                     grid-area: foto3;
                     }
         }
 
         .c-ss4{
-            padding: 2rem;
-            font-family: $ff-main;
-            text-align: center;
-            font-size: 4rem;
+            @include centersize;
                 .csss4{
                 grid-area: foto4;
                 }

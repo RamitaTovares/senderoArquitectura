@@ -318,20 +318,15 @@ footer {
   padding-top: 2rem;
 }
 
-.carrusel1 {
+.carrusel1, .carrusel2, .carrusel2 .h1, .carrusel1 .h1 {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-.carrusel1 .h1 {
+.carrusel1 .h1, .carrusel2 .h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   display: flex;
   text-align: center;
-  padding-bottom: 4rem;
-}
-
-.carrusel2 {
-  padding-top: 4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
