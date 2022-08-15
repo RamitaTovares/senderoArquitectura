@@ -1,12 +1,9 @@
 
-.bodyHome{
+.gridGeneral{   
+    background-color: $clr-crema1;
     
-.gridGeneral{  
-    background-image: url(//img/wybp1.jpg);
     .container-grid{
             text-align: center;
-            
-    }
         .c-hl4{
             font-size: 4rem;
             text-align: center;
@@ -16,17 +13,17 @@
             font-size: 4rem;
             text-align: justify;
         }
-        
+        .ch127{
+            display: block;
+            text-align: center;
+            width: 100%;
+            height: auto;
+        }
         .c-hl2{
             font-size: 4rem;
             text-align: center;
             display: flex;
         }
     } 
-    header{
-        .navbar{
-            padding: 2rem;
-            font-size: 3rem;
-        }
-    }
-}
+    
+}   

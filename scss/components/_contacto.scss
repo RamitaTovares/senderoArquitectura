@@ -1,11 +1,12 @@
 .coloresGenerales{
+    background-color: $clr-crema1;
     font-family: $ff-main;
 
     .contenedorContacto{ 
         background-color: $clr-crema1;
         font-family: $ff-headings;
         font-size: 2.5rem;
-        
+        text-align: center;
         .gridContacto{
             width: 100%;
             margin: 0px auto;

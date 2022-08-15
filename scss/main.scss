@@ -1,10 +1,11 @@
 @import "./utilities/reset";
 @import "./utilities/variable";
 @import "./utilities/mixin";
-@import "./components/home/_home";   
 @import "./layout/efectoNavbar";
-@import "./components/nosotros/nosotros";
+@import "./layout/footer";
+@import "./components/home";   
+@import "./components/nosotros";
 @import "./layout/breakpoints";   
-@import "./components/servicios/servicios";
-@import "./components/contacto/contacto";
-@import "./components/proyectos/proyectos";    
+@import "./components/servicios";
+@import "./components/contacto";
+@import "./components/proyectos";    
