@@ -120,6 +120,12 @@ html {
 footer {
   text-align: center;
 }
+footer .p3 {
+  font-size: 2rem;
+}
+footer .p5 {
+  font-size: 2rem;
+}
 
 .gridGeneral {
   background-color: #F8ECD1;
@@ -160,6 +166,9 @@ body .contenedorNosotros {
   background-color: #F8ECD1;
   text-align: center;
 }
+body .contenedorNosotros .hqs {
+  font-size: 5rem;
+}
 body .contenedorNosotros .n-nn2box2 {
   padding: 2rem;
 }
@@ -178,47 +187,27 @@ body .contenedorNosotros .n-nn2box2 {
 }
 
 @media (max-width: 1100px) {
-  .gridServicios {
+  .bodyServicios .nuestrosServicios {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .bodyServicios .gridServicios {
+    margin-left: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr;
     grid-template-areas: "foto1" "foto2" "foto3" "foto4";
-    text-align: center;
   }
-  .gridServicios .c-ss1 {
-    padding: 2rem;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 4rem;
-  }
-  .gridServicios .c-ss1 .csss1 {
+  .bodyServicios .gridServicios .c-ss1 .csss1 {
     grid-area: foto1;
   }
-  .gridServicios .c-ss2 {
-    padding: 2rem;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 4rem;
-  }
-  .gridServicios .c-ss2 .csss2 {
+  .bodyServicios .gridServicios .c-ss2 .csss2 {
     grid-area: foto2;
   }
-  .c-ss3 {
-    padding: 2rem;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 4rem;
-  }
-  .c-ss3 .csss3 {
+  .bodyServicios .c-ss3 .csss3 {
     grid-area: foto3;
   }
-  .c-ss4 {
-    padding: 2rem;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 4rem;
-  }
-  .c-ss4 .csss4 {
+  .bodyServicios .c-ss4 .csss4 {
     grid-area: foto4;
   }
 }
@@ -249,7 +238,7 @@ body .contenedorNosotros .n-nn2box2 {
     height: auto;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .n-nn2box2 {
     padding: 2rem;
     width: 55rem;
@@ -284,27 +273,73 @@ body .contenedorNosotros .n-nn2box2 {
     height: auto;
   }
 }
-.n-nn2box2 {
-  padding: 2rem;
-  width: 70rem;
-  height: auto;
-}
-
 @media (max-width: 576px) {
   .n-nn2box2 {
     padding: 2rem;
+    width: 55rem;
+    height: auto;
+  }
+  .c-ss1 {
+    padding-left: 0;
+  }
+  .c-ss1 .csss1 {
     width: 40rem;
     height: auto;
   }
-  .csss1 {
-    width: 20rem;
+  .c-ss2 {
+    padding-left: 0;
+  }
+  .c-ss2 .csss2 {
+    width: 40rem;
+    height: auto;
+  }
+  .c-ss3 {
+    padding-left: 0;
+  }
+  .c-ss3 .csss3 {
+    width: 40rem;
+    height: auto;
+  }
+  .c-ss4 {
+    padding-left: 0;
+  }
+  .c-ss4 .csss4 {
+    width: 40rem;
     height: auto;
   }
 }
 @media (max-width: 400px) {
   .n-nn2box2 {
     padding: 2rem;
-    width: 20rem;
+    width: 25rem;
+    height: auto;
+  }
+  .c-ss1 {
+    padding-left: 0;
+  }
+  .c-ss1 .csss1 {
+    width: 25rem;
+    height: auto;
+  }
+  .c-ss2 {
+    padding-left: 0;
+  }
+  .c-ss2 .csss2 {
+    width: 25rem;
+    height: auto;
+  }
+  .c-ss3 {
+    padding-left: 0;
+  }
+  .c-ss3 .csss3 {
+    width: 25rem;
+    height: auto;
+  }
+  .c-ss4 {
+    padding-left: 0;
+  }
+  .c-ss4 .csss4 {
+    width: 25rem;
     height: auto;
   }
 }
@@ -397,7 +432,6 @@ footer {
 .carrusel1 .h1, .carrusel2 .h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-  display: flex;
   text-align: center;
 }
 
