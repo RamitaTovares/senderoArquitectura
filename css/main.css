@@ -12,6 +12,11 @@ html {
 }
 
 /* Navbar efecto        */
+.body .gridGeneral .header .menu-bar {
+  background-color: #a83279;
+  background-image: linear-gradient(-90deg, #d38312, #a83279);
+}
+
 .navbar-toggler {
   width: 2.5rem;
   height: 2rem;
@@ -179,11 +184,7 @@ footer .container-fluid .footer__div .rotate-center {
 }
 
 body {
-  background-color: #85586F;
   font-family: "Poppins", sans-serif;
-}
-body header {
-  background-color: #85586F;
 }
 body .contenedorNosotros {
   font-size: 3rem;
@@ -468,6 +469,8 @@ footer {
 }
 
 .carrusel1, .carrusel2, .carrusel2 .h1, .carrusel1 .h1 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   text-align: center;
 }
 .carrusel1 .h1, .carrusel2 .h1 {
