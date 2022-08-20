@@ -1,11 +1,12 @@
-$clr-crema1: linear-gradient(90deg, rgba(240,235,227,1) 0%, rgba(228,220,207,1) 100%);;
+$clr-crema1: #dbdbdb;
 $clr-violetaclaro:#DEB6AB;
 $clr-violetamedio:#AC7D88;
 $clr-violetaoscuro:#85586F;
 
-@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins:wght@500;700&display=swap');
-    
-$ff-headings:'Mingzat', sans-serif;
-$ff-main: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap');
+
+
+$ff-headings:'Zen Maru Gothic', sans-serif;
+$ff-main: 'Zen Maru Gothic', sans-serif;

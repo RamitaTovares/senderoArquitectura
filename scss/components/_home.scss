@@ -1,11 +1,13 @@
 .bodyHome{
-    background: linear-gradient(90deg, rgba(240,235,227,1) 0%, rgba(228,220,207,1) 100%);
+    background-color:#dbdbdb;
 
 }
 
 .gridGeneral{   
         .container-grid{
+                background-color:#dbdbdb;
                 text-align: center;
+                font-family: $ff-main;
             .c-hl4{
                 font-size: 3rem;
                 text-align: center;
@@ -24,6 +26,7 @@
             .c-hl2{
                 font-size: 3rem;
                 text-align: center;
+                background-color:#dbdbdb;
             }
         } 
         

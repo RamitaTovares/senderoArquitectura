@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Mingzat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mingzat&family=Poppins:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -80,7 +80,7 @@ html {
 }
 
 .navbar-toggler.collapsed .toggler-icon {
-  background: linear-gradient(263deg, rgb(2, 0, 36) 0%, rgb(238, 5, 202) 100%);
+  background: linear-gradient(90deg, rgb(186, 146, 104) 0%, rgb(114, 147, 144) 100%);
 }
 
 .navbar {
@@ -106,7 +106,7 @@ html {
   right: 0;
   margin: 0 auto;
   content: " ";
-  background-color: #fffcf7;
+  background-color: #ba9268;
   width: 0%;
   height: 4px;
   transition: all 1s;
@@ -151,11 +151,13 @@ footer .container-fluid .footer__div .rotate-center {
 }
 
 .bodyHome {
-  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
+  background-color: #dbdbdb;
 }
 
 .gridGeneral .container-grid {
+  background-color: #dbdbdb;
   text-align: center;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 .gridGeneral .container-grid .c-hl4 {
   font-size: 3rem;
@@ -175,14 +177,15 @@ footer .container-fluid .footer__div .rotate-center {
 .gridGeneral .container-grid .c-hl2 {
   font-size: 3rem;
   text-align: center;
+  background-color: #dbdbdb;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 body .contenedorNosotros {
   font-size: 2rem;
-  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
+  background: #dbdbdb;
   text-align: center;
 }
 body .contenedorNosotros .hqs {
@@ -192,11 +195,11 @@ body .contenedorNosotros .n-nn2box2 {
   padding: 1.5rem;
 }
 body .contenedorNosotros .nn-4box1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 body .contenedorNosotros .n-nn3 {
   font-size: 2rem;
-  font-family: "Mingzat", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   text-align: center justify;
   display: block;
   padding-bottom: 3rem;
@@ -382,16 +385,16 @@ body .contenedorNosotros .n-nn2box2 {
   }
 }
 .bodyServicios {
-  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
+  background: #dbdbdb;
 }
 
 .p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-size: 5rem;
 }
 
 .nuestrosServicios {
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-size: 3rem;
   text-align: center;
 }
@@ -411,7 +414,7 @@ body .contenedorNosotros .n-nn2box2 {
 }
 .gridServicios .c-ss1 {
   padding: 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   text-align: center;
   font-size: 3rem;
 }
@@ -420,7 +423,7 @@ body .contenedorNosotros .n-nn2box2 {
 }
 .gridServicios .c-ss2 {
   padding: 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   text-align: center;
   font-size: 3rem;
 }
@@ -430,7 +433,7 @@ body .contenedorNosotros .n-nn2box2 {
 
 .c-ss3 {
   padding: 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   text-align: center;
   font-size: 3rem;
 }
@@ -440,7 +443,7 @@ body .contenedorNosotros .n-nn2box2 {
 
 .c-ss4 {
   padding: 2rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   text-align: center;
   font-size: 3rem;
 }
@@ -449,12 +452,12 @@ body .contenedorNosotros .n-nn2box2 {
 }
 
 .coloresGenerales {
-  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
-  font-family: "Poppins", sans-serif;
+  background: #dbdbdb;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 .coloresGenerales .contenedorContacto {
-  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
-  font-family: "Mingzat", sans-serif;
+  background: #dbdbdb;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-size: 2.5rem;
   text-align: center;
 }
@@ -474,7 +477,7 @@ footer {
   text-align: center;
 }
 .carrusel1 .h1, .carrusel2 .h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
   font-size: 2rem;
   text-align: center;
 }
