@@ -4,15 +4,21 @@
 
 .p{
     font-family: $ff-main;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 .nuestrosServicios{
     font-family: $ff-main;
-    font-size: 5rem;   
+    font-size: 3rem;   
     text-align: center;
+    .p{
+        font-size: 5rem;
+    }
 }
 
 .gridServicios{
+    .p{
+        font-size: 7rem;
+    }
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;

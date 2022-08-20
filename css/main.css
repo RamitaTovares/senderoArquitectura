@@ -158,12 +158,12 @@ footer .container-fluid .footer__div .rotate-center {
   text-align: center;
 }
 .gridGeneral .container-grid .c-hl4 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 .gridGeneral .container-grid .c-hl3 {
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: justify;
 }
 .gridGeneral .container-grid .ch127 {
@@ -173,34 +173,33 @@ footer .container-fluid .footer__div .rotate-center {
   height: 120rem;
 }
 .gridGeneral .container-grid .c-hl2 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
-  display: flex;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
 body .contenedorNosotros {
-  font-size: 3rem;
+  font-size: 2rem;
   background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
   text-align: center;
 }
 body .contenedorNosotros .hqs {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 body .contenedorNosotros .n-nn2box2 {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 body .contenedorNosotros .nn-4box1 {
   font-family: "Poppins", sans-serif;
 }
 body .contenedorNosotros .n-nn3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Mingzat", sans-serif;
   text-align: center justify;
   display: block;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 body .contenedorNosotros .n-nn2box2 {
   padding-top: 2rem;
@@ -388,13 +387,16 @@ body .contenedorNosotros .n-nn2box2 {
 
 .p {
   font-family: "Poppins", sans-serif;
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .nuestrosServicios {
   font-family: "Poppins", sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
+}
+.nuestrosServicios .p {
+  font-size: 5rem;
 }
 
 .gridServicios {
@@ -404,11 +406,14 @@ body .contenedorNosotros .n-nn2box2 {
   grid-template-areas: "foto1" "foto2" "foto3" "foto4";
   text-align: center;
 }
+.gridServicios .p {
+  font-size: 7rem;
+}
 .gridServicios .c-ss1 {
   padding: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .gridServicios .c-ss1 .csss1 {
   grid-area: foto1;
@@ -417,7 +422,7 @@ body .contenedorNosotros .n-nn2box2 {
   padding: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .gridServicios .c-ss2 .csss2 {
   grid-area: foto2;
@@ -427,7 +432,7 @@ body .contenedorNosotros .n-nn2box2 {
   padding: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .c-ss3 .csss3 {
   grid-area: foto3;
@@ -437,7 +442,7 @@ body .contenedorNosotros .n-nn2box2 {
   padding: 2rem;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .c-ss4 .csss4 {
   grid-area: foto4;
