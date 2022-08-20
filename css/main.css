@@ -11,12 +11,6 @@ html {
   /** 10px=1rem */
 }
 
-/* Navbar efecto        */
-.body .gridGeneral .header .menu-bar {
-  background-color: #a83279;
-  background-image: linear-gradient(-90deg, #d38312, #a83279);
-}
-
 .navbar-toggler {
   width: 2.5rem;
   height: 2rem;
@@ -156,9 +150,10 @@ footer .container-fluid .footer__div .rotate-center {
   }
 }
 
-.gridGeneral {
-  background-color: #F8ECD1;
+.bodyHome {
+  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
 }
+
 .gridGeneral .container-grid {
   text-align: center;
 }
@@ -175,7 +170,7 @@ footer .container-fluid .footer__div .rotate-center {
   display: block;
   text-align: center;
   width: 100%;
-  height: auto;
+  height: 120rem;
 }
 .gridGeneral .container-grid .c-hl2 {
   font-size: 4rem;
@@ -188,7 +183,7 @@ body {
 }
 body .contenedorNosotros {
   font-size: 3rem;
-  background-color: #F8ECD1;
+  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
   text-align: center;
 }
 body .contenedorNosotros .hqs {
@@ -388,7 +383,7 @@ body .contenedorNosotros .n-nn2box2 {
   }
 }
 .bodyServicios {
-  background-color: #F8ECD1;
+  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
 }
 
 .p {
@@ -449,11 +444,11 @@ body .contenedorNosotros .n-nn2box2 {
 }
 
 .coloresGenerales {
-  background-color: #F8ECD1;
+  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
   font-family: "Poppins", sans-serif;
 }
 .coloresGenerales .contenedorContacto {
-  background-color: #F8ECD1;
+  background: linear-gradient(90deg, rgb(240, 235, 227) 0%, rgb(228, 220, 207) 100%);
   font-family: "Mingzat", sans-serif;
   font-size: 2.5rem;
   text-align: center;
