@@ -434,6 +434,7 @@ footer .container-fluid .footer__div .rotate-center {
 }
 .gridServicios .c-ss1 .csss1 {
   grid-area: foto1;
+  filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
 }
 .gridServicios .c-ss2 {
   padding: 2rem;
@@ -443,6 +444,7 @@ footer .container-fluid .footer__div .rotate-center {
 }
 .gridServicios .c-ss2 .csss2 {
   grid-area: foto2;
+  filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
 }
 
 .c-ss3 {
@@ -453,6 +455,7 @@ footer .container-fluid .footer__div .rotate-center {
 }
 .c-ss3 .csss3 {
   grid-area: foto3;
+  filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
 }
 
 .c-ss4 {
@@ -463,6 +466,7 @@ footer .container-fluid .footer__div .rotate-center {
 }
 .c-ss4 .csss4 {
   grid-area: foto4;
+  filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
 }
 
 .coloresGenerales {

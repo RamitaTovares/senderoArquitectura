@@ -31,12 +31,14 @@
             @include centersize;
             .csss1{
             grid-area: foto1;
+            filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
             }
         }
         .c-ss2{
             @include centersize;
                 .csss2{
                     grid-area: foto2;
+                    filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
                     }
             }
         }
@@ -44,6 +46,7 @@
             @include centersize;
                 .csss3{
                     grid-area: foto3;
+                    filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
                     }
         }
 
@@ -51,6 +54,7 @@
             @include centersize;
                 .csss4{
                 grid-area: foto4;
+                filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
                 }
             }
  
