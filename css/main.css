@@ -194,7 +194,12 @@ footer .container-fluid .footer__div .rotate-center {
   padding-top: 2rem;
 }
 .contenedorNosotros .n-nn2box2 {
+  width: 50rem;
+  height: 50rem;
   padding: 1.5rem;
+  border-radius: 50%;
+  filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
+  padding-top: 2rem;
 }
 .contenedorNosotros .nn-4box1 {
   font-family: "Zen Maru Gothic", sans-serif;
@@ -205,11 +210,13 @@ footer .container-fluid .footer__div .rotate-center {
   font-family: "Zen Maru Gothic", sans-serif;
   text-align: center justify;
 }
-.contenedorNosotros .n-nn2box2 {
-  padding-top: 2rem;
-}
 
 @media (max-width: 1100px) {
+  .contenedorNosotros .n-nn2box2 {
+    padding: 2rem;
+    width: 50rem;
+    height: 50rem;
+  }
   .navbar-brand {
     padding-left: 4rem;
   }
@@ -282,15 +289,15 @@ footer .container-fluid .footer__div .rotate-center {
   }
   .n-nn2box2 {
     padding: 2rem;
-    width: 70rem;
-    height: auto;
+    width: 30rem;
+    height: 30rem;
   }
 }
 @media (max-width: 750px) {
   .n-nn2box2 {
     padding: 2rem;
-    width: 55rem;
-    height: auto;
+    width: 20rem;
+    height: 20rem;
   }
   .c-ss1 {
     padding-left: 0;
@@ -322,10 +329,10 @@ footer .container-fluid .footer__div .rotate-center {
   }
 }
 @media (max-width: 576px) {
-  .n-nn2box2 {
+  .contenedorNosotros .n-nn2box2 {
     padding: 2rem;
-    width: 35rem;
-    height: auto;
+    width: 30rem;
+    height: 30rem;
   }
   .c-ss1 {
     padding-left: 0;
@@ -359,8 +366,8 @@ footer .container-fluid .footer__div .rotate-center {
 @media (max-width: 400px) {
   .n-nn2box2 {
     padding: 2rem;
-    width: 20rem;
-    height: auto;
+    width: 10rem;
+    height: 10rem;
   }
   .c-ss1 {
     padding-left: 0;

@@ -8,17 +8,23 @@
 
 .contenedorNosotros{
     background-color: $clr-crema1;
+    font-size: 2rem;
+    background: $clr-crema1;   
+    text-align: center;
 
     .hqs{
         font-size: 3rem;
         padding-top: 2rem;
     }
     .n-nn2box2{
+        width: 50rem;
+        height: 50rem;
         padding: 1.5rem;
+        border-radius: 50%;
+        filter: drop-shadow(0.4rem 0.6rem 1.2rem #af9f8c);
+        padding-top: 2rem;
     }
-    font-size: 2rem;
-    background: $clr-crema1;   
-    text-align: center;
+ 
         .nn-4box1{
             font-family: $ff-main;
             padding-top: 1rem;
@@ -29,7 +35,5 @@
             font-family: $ff-headings;
             text-align: center justify;
         }   
-        .n-nn2box2{
-            padding-top: 2rem;
-        }
+        
 }

@@ -1,5 +1,14 @@
 @media (max-width: 1100px){
 
+.contenedorNosotros{
+    .n-nn2box2{
+        padding: 2rem;
+        width: 50rem;
+        height: 50rem;
+        }
+}
+
+
 .navbar-brand{
     padding-left: 4rem;
 }   
@@ -82,8 +91,8 @@
     }
     .n-nn2box2{
         padding: 2rem;
-        width: 70rem;
-        height: auto;
+        width: 30rem;
+        height: 30rem;
         }
     }
 
@@ -91,8 +100,8 @@
     @media (max-width: 750px){
         .n-nn2box2{
         padding: 2rem;
-        width: 55rem;
-        height: auto;
+        width: 20rem;
+        height: 20rem;
         }
         .c-ss1{
             padding-left: 0; 
@@ -125,11 +134,14 @@
     }
 
 @media (max-width: 576px){
-    .n-nn2box2{
-        padding: 2rem;
-        width: 35rem;
-        height: auto;
-        }
+    .contenedorNosotros{
+        .n-nn2box2{
+            padding: 2rem;
+            width: 30rem;
+            height: 30rem;
+            }
+    }
+    
         .c-ss1{
             padding-left: 0; 
             .csss1{
@@ -163,8 +175,8 @@
 @media (max-width: 400px){
     .n-nn2box2{
         padding: 2rem;
-        width: 20rem;
-        height: auto;
+        width: 10rem;
+        height: 10rem;
         }
         .c-ss1{
             padding-left: 0; 
