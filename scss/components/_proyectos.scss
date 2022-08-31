@@ -1,16 +1,27 @@
-.carrusel1{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    text-align: center;
-    .h1{
-        font-family: $ff-main;
-        font-size: 2rem;
-        text-align: center;
-        @extend .carrusel1;
 
+.coloresGenerales{
+    .hproyectos{
+        padding: 2rem;
+        text-align: center;
+        .p1{
+            font-size: 3rem;
+        }
     }
 }
 .carrusel2{
-    @extend .carrusel1
+    text-align: center;
+    padding: 2rem;
+    .carousel-control-prev{
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            filter: invert(108%);
+          }
+    }
+    
+    
+    .p1{
+        font-size: 3rem;
+    }
 
+    
 }
+

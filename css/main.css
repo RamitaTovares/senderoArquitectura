@@ -180,35 +180,42 @@ footer .container-fluid .footer__div .rotate-center {
   background-color: #dbdbdb;
 }
 
-body {
-  font-family: "Zen Maru Gothic", sans-serif;
+.bodyNosotros {
+  background-color: #dbdbdb;
 }
-body .contenedorNosotros {
+.contenedorNosotros {
+  background-color: #dbdbdb;
   font-size: 2rem;
   background: #dbdbdb;
   text-align: center;
 }
-body .contenedorNosotros .hqs {
+.contenedorNosotros .hqs {
   font-size: 3rem;
+  padding-top: 2rem;
 }
-body .contenedorNosotros .n-nn2box2 {
+.contenedorNosotros .n-nn2box2 {
   padding: 1.5rem;
 }
-body .contenedorNosotros .nn-4box1 {
+.contenedorNosotros .nn-4box1 {
   font-family: "Zen Maru Gothic", sans-serif;
+  padding-top: 1rem;
 }
-body .contenedorNosotros .n-nn3 {
+.contenedorNosotros .n-nn3 {
   font-size: 2rem;
   font-family: "Zen Maru Gothic", sans-serif;
   text-align: center justify;
-  display: block;
-  padding-bottom: 3rem;
 }
-body .contenedorNosotros .n-nn2box2 {
+.contenedorNosotros .n-nn2box2 {
   padding-top: 2rem;
 }
 
 @media (max-width: 1100px) {
+  .navbar-brand {
+    padding-left: 4rem;
+  }
+  .navbar {
+    padding-right: 1.5rem;
+  }
   .bodyServicios .nuestrosServicios {
     font-size: 3rem;
     text-align: center;
@@ -456,30 +463,115 @@ body .contenedorNosotros .n-nn2box2 {
   font-family: "Zen Maru Gothic", sans-serif;
 }
 .coloresGenerales .contenedorContacto {
+  text-decoration: none;
   background: #dbdbdb;
   font-family: "Zen Maru Gothic", sans-serif;
   font-size: 2.5rem;
   text-align: center;
+}
+.coloresGenerales .contenedorContacto .ul {
+  list-style: none;
 }
 .coloresGenerales .contenedorContacto .gridContacto {
   width: 100%;
   margin: 0px auto;
   display: grid;
 }
+.coloresGenerales .contenedorContacto .gridContacto .listaRedes {
+  list-style: none;
+}
+.coloresGenerales .contenedorContacto .gridContacto .listaRedes .lic-ci7 .c-ci8 {
+  text-decoration: none;
+}
 
 footer {
   padding-top: 2rem;
 }
 
-.carrusel1, .carrusel2, .carrusel2 .h1, .carrusel1 .h1 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.get_in_touch {
+  max-width: 80rem;
+  margin: 5rem auto;
+  position: relative;
+  box-shadow: 0 1rem 3rem 0px rgba(0, 0, 0, 0.3);
+  padding: 3rem;
+}
+
+.get_in_touch .title1 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  line-height: 4.8rem;
+  padding-bottom: 2rem;
+  color: #ba9268;
+  background: linear-gradient(to right, #ba9268 0%, #a59f9c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 3.2rem 0;
+}
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 3.6rem;
+  border-width: 0 0 0.2rem 0;
+  border-color: #a59f9c;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .label {
+  left: 2rem;
+  bottom: 1.1rem;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  color: #a59f9c;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background: linear-gradient(125deg, #7d9390, #a59f9c);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  width: 20rem;
+  cursor: pointer;
+}
+
+.coloresGenerales .hproyectos {
+  padding: 2rem;
   text-align: center;
 }
-.carrusel1 .h1, .carrusel2 .h1 {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-size: 2rem;
+.coloresGenerales .hproyectos .p1 {
+  font-size: 3rem;
+}
+
+.carrusel2 {
   text-align: center;
+  padding: 2rem;
+}
+.carrusel2 .carousel-control-prev .carousel-control-prev-icon, .carrusel2 .carousel-control-prev .carousel-control-next-icon {
+  filter: invert(108%);
+}
+.carrusel2 .p1 {
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */

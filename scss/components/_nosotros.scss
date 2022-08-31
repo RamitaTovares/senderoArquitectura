@@ -1,32 +1,35 @@
+.bodyNosotros{
+    background-color: $clr-crema1;
+    .gridGeneral1{
 
-
-body{
-    font-family: $ff-main;
-    .contenedorNosotros{
-
-        .hqs{
-            font-size: 3rem;
-        }
-        .n-nn2box2{
-            padding: 1.5rem;
-        }
-        font-size: 2rem;
-        background: $clr-crema1;   
-        text-align: center;
-            .nn-4box1{
-                font-family: $ff-main;
-               
-            }
-            .n-nn3{
-                font-size: 2rem;
-                font-family: $ff-headings;
-                text-align: center justify;
-                display: block;
-                padding-bottom: 3rem;
-            }   
-            .n-nn2box2{
-                padding-top: 2rem;
-            }
     }
+    
+}
 
+.contenedorNosotros{
+    background-color: $clr-crema1;
+
+    .hqs{
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+    .n-nn2box2{
+        padding: 1.5rem;
+    }
+    font-size: 2rem;
+    background: $clr-crema1;   
+    text-align: center;
+        .nn-4box1{
+            font-family: $ff-main;
+            padding-top: 1rem;
+           
+        }
+        .n-nn3{
+            font-size: 2rem;
+            font-family: $ff-headings;
+            text-align: center justify;
+        }   
+        .n-nn2box2{
+            padding-top: 2rem;
+        }
 }

@@ -1,17 +1,33 @@
 .coloresGenerales{
+ 
     background: $clr-crema1;
     font-family: $ff-main;
+   
 
     .contenedorContacto{ 
+        .ul{
+            list-style: none;
+        }
+        text-decoration: none;
         background: $clr-crema1;
         font-family: $ff-headings;
         font-size: 2.5rem;
         text-align: center;
-        .gridContacto{
+        .gridContacto{  
             width: 100%;
             margin: 0px auto;
             display: grid;
+            .listaRedes{
+                list-style: none;
+                .lic-ci7{
+                    .c-ci8{
+                        text-decoration: none;
+                    }
+                }
+            }
+            
         }
+
 
     }   
 }
@@ -19,4 +35,76 @@
 footer{
     padding-top: 2rem;
 }
-    
+
+.get_in_touch{
+    max-width: 80rem;
+    margin: 5rem auto;
+    position: relative;
+    box-shadow: 0 1rem 3rem 0px rgba(0, 0, 0, 0.3);
+    padding: 3rem;
+
+}
+
+.get_in_touch .title1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+    line-height: 4.8rem;
+    padding-bottom: 2rem;
+    color: #ba9268;    
+    background: linear-gradient(to right, #ba9268 0%, #a59f9c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field{
+    position: relative;
+    margin: 3.2rem 0;
+}
+
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 3.6rem;
+    border-width: 0 0 0.2rem 0;
+    border-color: #a59f9c;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+
+}
+
+.contact-form .input-text:focus{
+    outline: none;
+
+}
+
+.contact-form .label{
+    left: 2rem;
+    bottom: 1.1rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color:#a59f9c;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn{
+    display: inline-block;
+    background: linear-gradient(125deg, #7d9390, #a59f9c);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    width: 20rem;
+    cursor: pointer;
+}
+
+
+
